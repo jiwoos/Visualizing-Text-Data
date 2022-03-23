@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSE457: Assignment 3 Process Book</title>
+    <link rel="stylesheet" href="public/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;1,100;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<h2> Jiwoo Seo 457104 </h2>
+<h3> Assignment 3 Process Book </h3>
+
+
+<h4> What do you want to achieve with the visualization? </h4>
+<p> I would like to parse the raw data (html) and make it into a meaningful data visualization. Right now, the raw html file is just a bulk of words with almost no structures (there are html tags so that we can tell the hierarchy). 
+    I aim to provide visual analysis on each story (total of 43 stories). The user will be able to have a brief overview of each story without reading 43 tales.
+</p>
+
+<hr>
+<h4> What tasks do you want to support? </h4>
+<p> 1) Word Frequency - the chart that shows the frequencies of words in each tale. </p>
+<p> 2) Sentiment Analysis - the chart that shows the sentiment scores of each story. The users will be able to tell the overall sentiment of the story.</p>
+
+
+<hr>
+<h4>What designs will help you accomplish these? Name at least two.</h4>
+<p> Word Frequency - I will make bubble chart where circles represent each word and their sizes representing the frequency of each word. The bigger and darker the circle, the more frequently used.</p>
+<p>Sentiment Analysis - I will make an analysis on each story, and make a bar chart to show the overall sentiment of the story. Each bar of the bar chart will be: negative sentiment, positive sentiment, neutral</p>
+
+
+<hr>
+<h4>What designs will help you accomplish these? Name at least two.</h4>
+<p> Word Frequency - I am planning to create bubble chart, where radius of circle intuitively tells the frequency of each word. I will also use tooltip so the user can hover over to see the actual frequency of the word</p>
+<p> Sentiment Analysis - I am planning to create a bar chart in scale of 100, to tell the percentage of the each sentiment. </p>
+   
+
+<hr>
+<h4> A justification for the final design</h4>
+<p> My design intuitively show the visual analysis on each story. I made two charts on the right, and each chart shows sentiment analysis(bar chart) and word frequency (bubble chart).
+    Through this, the user will be able to see the tone of each story by looking at the sentiment, and the frequently used words. For example, 'Mouse and Mouser''s postive sentiment is greater than negative sentiment, and it's most frequently used word is 'good'. On the other hand, 'TITTY MOUSE AND TATTY MOUSE''s negative sentiment is greater than postive sentiment and it's frequently used words are: weep, dead, ill, and etc. The user can pick a book with their preferences by looking at the overall tone and sentiment of each story. (For the cleanliness of the visualization, top 20 words are shown in the chart)
+</p>
+
+<hr>
+<h4> Sketch </h4>
+<img src="public/images/sketch.jpg" alt="blueprint">
+
+</body>
+</html>

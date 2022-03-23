@@ -1,0 +1,46 @@
+
+.titles {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+}
+
+.labels:hover {
+	color: pink;
+}
+
+h2{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
+	font-style: italic;
+}
+
+body {
+	font-family:'Work Sans', sans-serif;
+	margin: 30px;
+}
+
+.column1 {
+  float: left;
+  width: 40%;
+}
+.column2 {
+  float: left;
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+body {
+	background-color: ivory;
+}
+
+.subheading {
+	font-weight: 500;
+	font-size: 20px;
+}
