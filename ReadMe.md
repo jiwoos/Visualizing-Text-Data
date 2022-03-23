@@ -1,6 +1,7 @@
-ReadMe
+Visualizing Text Data of english fairytales
 
-I used external sources:
+
+External Sources:
 
 https://www.pluralsight.com/guides/extracting-data-html-beautifulsoup
 https://www.geeksforgeeks.org/find-frequency-of-each-word-in-a-string-in-python/
@@ -16,3 +17,5 @@ Parsed data are stored in data/ folder.
 outputs.csv stores title, parsed strings, and original text of raw html.
 sentiment_score.json stores sentiment analysis data made with nltk.
 tale0 - 43.csv files store word by word arrays of each story.
+
+D3.js, Python
